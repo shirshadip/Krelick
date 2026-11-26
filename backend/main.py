@@ -1,2 +1,5 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
+"""Compatibility import for running the API from the backend directory."""
+
+from app.main import app
+
+__all__ = ["app"]

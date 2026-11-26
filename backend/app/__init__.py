@@ -1,0 +1,1 @@
+"""Krelick FastAPI application."""
